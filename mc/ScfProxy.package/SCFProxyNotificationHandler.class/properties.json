@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TCAPAllNotificationHandler",
+	"category" : "ScfProxy-tcap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scfProxy"
+	],
+	"name" : "SCFProxyNotificationHandler",
+	"type" : "normal"
+}

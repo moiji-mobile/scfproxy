@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "TCAPObjectFactory",
+	"category" : "ScfProxy-tcap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SCFProxyObjectFactory",
+	"type" : "normal"
+}

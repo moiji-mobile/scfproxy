@@ -1,0 +1,3 @@
+notifications
+dialogueContinueReceived: aContinueReceived
+	aContinueReceived dialogue scheduleContinue: aContinueReceived.

@@ -1,0 +1,3 @@
+*ScfProxy-proxying
+isScfProxyRosNotification
+	^false

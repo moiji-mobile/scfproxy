@@ -1,0 +1,3 @@
+notifications
+dialoguePAbortReceived: aPAbortReceived
+	aPAbortReceived dialogue schedulePAbort: aPAbortReceived.

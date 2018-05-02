@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ScfProxy-test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testEndPoint",
+		"scfEndPoint",
+		"testSCF"
+	],
+	"name" : "SCFProxyNotificationHandlerTest",
+	"type" : "normal"
+}

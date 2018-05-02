@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TCAPDialogue",
+	"category" : "ScfProxy-tcap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pendingOperations",
+		"remoteDialogue"
+	],
+	"name" : "SCFProxyDialogue",
+	"type" : "normal"
+}

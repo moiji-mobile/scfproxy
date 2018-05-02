@@ -1,0 +1,3 @@
+*ScfProxy
+isScfProxyRosNotification
+	^true

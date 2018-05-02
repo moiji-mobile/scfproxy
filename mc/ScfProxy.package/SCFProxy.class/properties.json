@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ScfProxy-tcap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sourceEndPoint",
+		"destEndPoint",
+		"notificationHandler"
+	],
+	"name" : "SCFProxy",
+	"type" : "normal"
+}

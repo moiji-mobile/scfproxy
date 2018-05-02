@@ -1,0 +1,3 @@
+notifications
+invocationReceived: aInvocationReceived 
+	aInvocationReceived dialogue scheduleInvocation: aInvocationReceived.
