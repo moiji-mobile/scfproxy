@@ -1,4 +1,4 @@
-as yet unclassified
+proxying-replay
 replayTcBegin: aDialogue source: aNotification
 	| destAddress sourceAddress acn userInformation |
 	sourceAddress := destAddress := SCCPAddress createForSSN: 'hlr'.

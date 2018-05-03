@@ -1,4 +1,4 @@
-as yet unclassified
+proxying-replay
 replayInvocation: aDialogue source: sourceInvocation
 	| invocation |
 	invocation := aDialogue newInvocationForName: sourceInvocation operationName parameters: sourceInvocation argument.

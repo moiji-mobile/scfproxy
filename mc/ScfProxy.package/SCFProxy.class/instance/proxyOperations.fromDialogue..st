@@ -1,18 +1,11 @@
 as yet unclassified
 proxyOperations: pendingOperations fromDialogue: aDialogue
-	| remote remoteDialogue rosOps dialogueOps |
-	"Find the remote endpoint an dialogue"
-	remote := self remoteFor: aDialogue.
-	remoteDialogue := remote dialogue.
+	| remoteDialogue rosOps dialogueOps |
 
-	"Create a new dialogue..."
-	remoteDialogue ifNil: [
-		remoteDialogue := remote endPoint newDialogue.
-		remoteDialogue addHandler: notificationHandler.
-		remoteDialogue remoteDialogue: aDialogue.
-		aDialogue remoteDialogue: remoteDialogue].
+	remoteDialogue := self remoteDialogueFor: aDialogue.
 
-	"Split the list by ROS and TCAP. We will be notified about invocations after"
+	"Split the list by ROS and TCAP as we need to make invocations/results before
+	we can send TC-begin/TC-continue."
 	rosOps := pendingOperations select: [:each | each isScfProxyRosNotification ].
 	dialogueOps := pendingOperations reject: [:each | each isScfProxyRosNotification ].
 

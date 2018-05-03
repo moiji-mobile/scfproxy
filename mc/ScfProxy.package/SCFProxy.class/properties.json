@@ -7,7 +7,6 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"sourceEndPoint",
-		"destEndPoint",
 		"notificationHandler"
 	],
 	"name" : "SCFProxy",
