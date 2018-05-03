@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+      SCIMetacelloLoadSpec {
+          #baseline : 'ScfProxy',
+          #directory : 'mc',
+          #load: [ 'default' ],
+          #platforms : [ #pharo ]
+      }
+  ]
+}
