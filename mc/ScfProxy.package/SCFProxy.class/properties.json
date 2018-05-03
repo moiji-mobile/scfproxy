@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"sourceEndPoint",
-		"notificationHandler"
+		"notificationHandler",
+		"callingAddress",
+		"calledAddress"
 	],
 	"name" : "SCFProxy",
 	"type" : "normal"

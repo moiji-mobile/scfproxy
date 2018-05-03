@@ -6,8 +6,7 @@ setUp
 	proxyEndPoint := TCAPTestServiceEndPoint newForTesting
 		asn1Model: self asn1Model;
 		endPointName: 'SCF Proxy'.
-	proxyEndPoint
-		transactionCoordinator: TCAPTestTransactionCoordinator new.
-	scfProxy := SCFProxy new proxyFrom: proxyEndPoint.
+
+	scfProxy := SCFProxy new proxyOn: proxyEndPoint calledAddress: self imsiAddr callingAddress: self localAddr.
 	testEndPoint connectTo: proxyEndPoint.
 	proxyEndPoint connectTo: testEndPoint

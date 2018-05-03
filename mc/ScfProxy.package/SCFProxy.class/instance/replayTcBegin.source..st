@@ -1,12 +1,11 @@
 proxying-replay
 replayTcBegin: aDialogue source: aNotification
-	| destAddress sourceAddress acn userInformation |
-	sourceAddress := destAddress := SCCPAddress createForSSN: 'hlr'.
+	| acn userInformation |
 	acn := aNotification dialogue applicationContextName.
 	userInformation := aNotification dialogue userInformation.
 
 	aDialogue
-		requestTcBeginDestinationAddress: destAddress
-		originatingAddress: sourceAddress
+		requestTcBeginDestinationAddress: calledAddress
+		originatingAddress: callingAddress
 		applicationContextName: acn
 		userInformation: userInformation.
