@@ -6,7 +6,7 @@ baseline: spec
 		spec project: 'TCAP' with: [
 				spec
 					className: #ConfigurationOfTCAP;
-					versionString: '10';
+					versionString: #bleedingEdge;
 					loads: #('default' 'camel' );
 					repository: 'http://smalltalkhub.com/mc/osmocom/TCAP/main/' ].
 		spec project: 'OsmoCore' with: [
