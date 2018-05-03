@@ -34,5 +34,11 @@ baseline: spec
 					className: #ConfigurationOfStatsDClient;
 					versionString: '4';
 					repository: 'http://smalltalkhub.com/mc/hfreyther2/StatsD/main/' ].
-		spec baseline: 'TaskIt' with: [
-			spec repository: 'github://sbragagnolo/taskit:dev-0.4.1']].
+		spec project: 'ZincHTTPComponents' with: [
+				spec
+					className: #ConfigurationOfZincHTTPComponents;
+					versionString: #bleedingEdge;
+					loads: #('REST' );
+					repository: 'http://mc.stfx.eu/ZincHTTPComponents' ].
+		spec package: #ScfProxy with: [
+				spec requires: #('TCAP' 'OsmoCore' 'OsmoLogging' 'OsmoNetwork' 'OsmoGSM' 'StatsDClient')]]
