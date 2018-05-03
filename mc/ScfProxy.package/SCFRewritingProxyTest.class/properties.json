@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SCFProxyTest",
+	"category" : "ScfProxy-test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SCFRewritingProxyTest",
+	"type" : "normal"
+}

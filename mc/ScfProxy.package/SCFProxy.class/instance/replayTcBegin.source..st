@@ -1,8 +1,8 @@
 proxying-replay
 replayTcBegin: aDialogue source: aNotification
 	| acn userInformation |
-	acn := aNotification dialogue applicationContextName.
-	userInformation := aNotification dialogue userInformation.
+	acn := self rewriteApplicationContextName: aNotification dialogue.
+	userInformation := self rewriteUserInformation: aNotification dialogue.
 
 	aDialogue
 		requestTcBeginDestinationAddress: calledAddress

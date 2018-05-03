@@ -1,8 +1,8 @@
 proxying-replay
 replayInvocation: aDialogue source: sourceInvocation
 	| invocation |
-	invocation := aDialogue newInvocationForName: sourceInvocation operationName parameters: sourceInvocation argument.
+	invocation := self newInvocationOn: aDialogue source: sourceInvocation.
 	invocation onReturnLast: [:res |
-		sourceInvocation invocation returnResultLast: res result ].
+		self rewriteReturnLast: sourceInvocation result: res].
 
 	aDialogue invoke: invocation withTimeout: nil.

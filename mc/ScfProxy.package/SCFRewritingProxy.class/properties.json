@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SCFProxy",
+	"category" : "ScfProxy-tcap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SCFRewritingProxy",
+	"type" : "normal"
+}
