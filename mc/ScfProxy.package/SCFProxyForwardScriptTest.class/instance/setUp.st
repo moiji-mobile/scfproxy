@@ -7,7 +7,7 @@ setUp
 		asn1Model: self asn1Model;
 		endPointName: 'SCF Proxy'.
 
-	scfScript := SCFProxyForwardScript new
+	scfScript := self newScript
 						calledAddress: self imsiAddr;
 						callingAddress: self localAddr.
 	scfProxy := SCFScriptableProxy new

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SCFProxyForwardScriptTest",
+	"category" : "ScfProxy-test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SCFForwardScriptAdapterTest",
+	"type" : "normal"
+}

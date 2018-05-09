@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "SCFProxyForwardScript",
+	"category" : "ScfProxy-scripting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"onNewDialogue",
+		"onTcBegin",
+		"onRosInvocation",
+		"onTcEnd",
+		"onTcContinue",
+		"onTcUAbort",
+		"onTcPAbort",
+		"onRosReturnResultLast"
+	],
+	"name" : "SCFForwardScriptAdapter",
+	"type" : "normal"
+}
