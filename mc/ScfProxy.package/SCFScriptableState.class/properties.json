@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ScfProxy-scripting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"originalDialogue",
+		"proxyDialogue",
+		"userState"
+	],
+	"name" : "SCFScriptableState",
+	"type" : "normal"
+}

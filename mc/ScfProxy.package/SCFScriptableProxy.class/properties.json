@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "ScfProxy-scripting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"script",
+		"sourceEndPoint",
+		"notificationHandler"
+	],
+	"name" : "SCFScriptableProxy",
+	"type" : "normal"
+}

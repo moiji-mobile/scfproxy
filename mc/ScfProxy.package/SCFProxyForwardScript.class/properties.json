@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SCFProxyScriptBase",
+	"category" : "ScfProxy-scripting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SCFProxyForwardScript",
+	"type" : "normal"
+}

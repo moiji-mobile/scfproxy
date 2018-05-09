@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SCFProxyDialogue",
+	"category" : "ScfProxy-scripting",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scriptState",
+		"tagName"
+	],
+	"name" : "SCFScriptableProxyDialogue",
+	"type" : "normal"
+}

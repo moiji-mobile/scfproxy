@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "TCAPObjectFactory",
-	"category" : "ScfProxy-tcap",
+	"super" : "TestCase",
+	"category" : "ScfProxy-test",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dialogueClass"
+		"state"
 	],
-	"name" : "SCFProxyObjectFactory",
+	"name" : "SCFScriptableStateTest",
 	"type" : "normal"
 }

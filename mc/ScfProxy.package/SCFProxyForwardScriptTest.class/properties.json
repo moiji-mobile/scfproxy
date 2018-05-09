@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ScfProxy-test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testEndPoint",
+		"testSCF",
+		"proxyEndPoint",
+		"scfProxy",
+		"scfScript"
+	],
+	"name" : "SCFProxyForwardScriptTest",
+	"type" : "normal"
+}
