@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "WorkManager",
+	"category" : "ScfProxy-ns",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"on_data",
+		"networkService"
+	],
+	"name" : "NetworkServiceWorkManager",
+	"type" : "normal"
+}

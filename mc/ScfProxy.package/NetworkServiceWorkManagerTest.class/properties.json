@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "ScfProxy-test",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"testWorkManager",
+		"proxyWorkManager",
+		"testEndPoint",
+		"proxyEndPoint",
+		"scfProxy"
+	],
+	"name" : "NetworkServiceWorkManagerTest",
+	"type" : "normal"
+}
