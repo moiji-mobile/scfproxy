@@ -1,9 +1,5 @@
 {
-	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "ScfProxy-test",
-	"classinstvars" : [ ],
-	"pools" : [ ],
+	"classtraitcomposition" : "TSCFProxyTest classTrait",
 	"classvars" : [ ],
 	"instvars" : [
 		"testEndPoint",
@@ -12,5 +8,11 @@
 		"scfProxy"
 	],
 	"name" : "SCFProxyTest",
-	"type" : "normal"
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"traitcomposition" : "TSCFProxyTest",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "ScfProxy-test"
 }
